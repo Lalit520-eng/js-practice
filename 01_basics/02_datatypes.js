@@ -9,10 +9,18 @@ let place ="danya";
 
 const number =123.896;
 const convertnumber = number.toFixed(2);
-console.log((typeof convertnumber));
+//console.log((typeof convertnumber));
 
-// answer will be 123.90 and it will return string
-console.log(number.toFixed(2));
+/* answer will be 124 and it will return string
+ Note: toPrecision() always used for before the .
+*/
+console.log(number.toPrecision(3));
+
+
+/* answer will be 123.90 and it will return string 
+  Note: toFixed() always used for after .
+ */
+  console.log(number.toFixed(2));
 
 
 
