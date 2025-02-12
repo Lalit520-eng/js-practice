@@ -28,8 +28,21 @@ myNumbers.forEach( (num) => {
     newNumbers.push(num);
   }
 } )
-console.log(newNumbers);
+//console.log(newNumbers);
 
+/* Example of map function in Array */
+ 
+let result3 = myNumbers.map( (num)=> num *10 ).filter( (num)=>num % 2 === 0 )
+//console.log(result3);
+
+/* Example of reduce function in Array */
+
+const marks =  [1,2,3,4];
+const passingMarks = 0;
+const somewithpassingmarks = marks.reduce(
+    (accumulator,currentvalue) => accumulator + currentvalue, passingMarks
+);
+console.log(somewithpassingmarks);
 
 
 
