@@ -8,7 +8,7 @@ function CalculatePriceFromCard(...num1)
 //console.log(CalculatePriceFromCard(10,20,30,40));
 
 const user = {
-   name:"krishna",
+   name:"hariOM",
    age: 1,
    welcomeMessage: function()
    {
